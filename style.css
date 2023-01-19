@@ -13,7 +13,7 @@
     width: 1rem;
     height: 1rem;
     content: "";
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/161359/quotes.png);
+    background-image: url(./images/quotes.png);
 }
 
 .part1 li::before
@@ -47,23 +47,22 @@
     height: 3rem;
     margin-left: 0.8rem;
     content: "";
-    background-image: url(https://img.icons8.com/officel/64/000000/pdf.png);
     position: relative;
     top:0.8rem;
 }
 
 #file1 ::after, #file5 ::after
 {
-    background-image: url(https://img.icons8.com/officel/64/000000/pdf.png)
+    background-image: url(./images/ms-pdf.png)
 }
 
 #file2 ::after
 {
-    background-image: url(https://img.icons8.com/dusk/64/000000/ms-excel.png)
+    background-image: url(./images/ms-excel.png)
 }
 #file3 ::after, #file4 ::after
 {
-    background-image: url(https://img.icons8.com/dusk/64/000000/ms-word.png)
+    background-image: url(./images/ms-word.png)
 }
 
 /* Part 3 */
