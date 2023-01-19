@@ -4,36 +4,38 @@
 }
 
 
-.part1 li::before,
-.part1 li::after
+.part1 ul li::before
 {
     display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
     width: 1rem;
     height: 1rem;
+    margin-right: 0.5rem;
     content: "";
     background-image: url(./images/quotes.png);
 }
 
-.part1 li::before
+.part1 ul li::after
 {
-    margin-right: 0.4em;
-}
-
-.part1 li::after
-{
-    margin-left: 0.4em;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+    content: "";
+    background-image: url(./images/quotes.png);
 }
 
 /* Part 2*/
 
-.part2 li
+.part2 ul li
 {
     line-height: 2;
     font-size: 1.5rem;
 }
-.part2 li a
+.part2 ul li a
 {
     text-decoration: none;
 }
@@ -51,7 +53,8 @@
     top:0.8rem;
 }
 
-#file1 ::after, #file5 ::after
+#file1 ::after, 
+#file5 ::after
 {
     background-image: url(./images/ms-pdf.png)
 }
@@ -60,7 +63,8 @@
 {
     background-image: url(./images/ms-excel.png)
 }
-#file3 ::after, #file4 ::after
+#file3 ::after, 
+#file4 ::after
 {
     background-image: url(./images/ms-word.png)
 }
